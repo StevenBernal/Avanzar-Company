@@ -7,7 +7,7 @@ body{
 
 #numero1{
     margin-top: 60px;
-    margin-left: 160px;
+    margin-left: 120px;
 }
 #numero2{
     margin-top: 60px;
@@ -22,8 +22,13 @@ body{
     margin-left: 130px;
 }
 
+#titulo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
 #registro{
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 #texto{

@@ -1,0 +1,64 @@
+body{
+    background-image: url(Paginas.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#numero1{
+    margin-top: 60px;
+    margin-left: 320px;
+}
+#numero2{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+#numero3{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+#numero4{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+#titulo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#formulario{
+    width: 80%;
+    margin-left: 10%;
+}
+.columna{
+    width: 16%;
+    
+}
+.texto{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#seleccion{
+    width: 200px;
+    padding-left: 5%;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+#seleccion:hover{
+    background-color: #eeeeee;
+}
+
+.boton{
+    border-radius: 100%;
+    width: 200px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 25%;    
+}
+.boton:hover{
+    background-color: darkgray;
+}
