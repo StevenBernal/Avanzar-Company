@@ -8,7 +8,7 @@ body{
 
 #numero1{
     margin-top: 60px;
-    margin-left: 120px;
+    margin-left: 240px;
 }
 #numero2{
     margin-top: 60px;
@@ -18,18 +18,12 @@ body{
     margin-top: 60px;
     margin-left: 130px;
 }
-#numero4{
-    margin-top: 60px;
-    margin-left: 130px;
-}
+
 
 #titulo{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
-#registro{
-    
 }
 
 #texto{
@@ -87,5 +81,6 @@ body{
     margin-left: 40%;
     font-size: 19px;
     margin-bottom: 100px;
+    cursor: pointer;
 }
 .boton:hover{background-color: darkgray;}

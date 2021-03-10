@@ -6,7 +6,7 @@ body{
 }
 #numero1{
     margin-top: 60px;
-    margin-left: 430px;
+    margin-left: 425px;
 }
 #numero2{
     margin-top: 60px;
@@ -22,7 +22,8 @@ body{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
+} 
+
 #formulario{
     width: 80%;
     margin-left: 10%;
@@ -37,6 +38,14 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+.texto2{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+    top: -40px;
+}
 #seleccion{
     width: 200px;
     padding-left: 5%;
@@ -48,15 +57,38 @@ body{
 #seleccion:hover{
     background-color: #eeeeee;
 }
-
+#check{
+    position: relative;
+   margin-left: 50%;
+}
+#checkt{
+    color: white;
+    position: relative;  
+    top: -15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#num{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+#num2{
+    position: relative;
+    top: -40px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
 .boton{
     border-radius: 100%;
     width: 200px;
     height: 30px;
-    margin-top: 60px;
     margin-left: 25%;  
-    font-size: 18px; 
-    cursor: pointer; 
+    font-size: 18px;  
+    cursor: pointer;
 }
 .boton:hover{
     background-color: darkgray;

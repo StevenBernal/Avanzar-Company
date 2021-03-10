@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Cliente</title>
+    <link rel="stylesheet" href="IMG Y CSS/Registro 3.css">
+</head>
+<body>
+
+    <div>
+        <a href="Registro.html"> <img id="numero1" src="IMG Y CSS/1-circle-c.png" width="80px" alt=""> </a>
+        <a href="Registro 2.html"> <img id="numero2" src="IMG Y CSS/2-circle-c.png" width="80px" alt=""> </a>
+        <a href="Registro 3.html"> <img id="numero3" src="IMG Y CSS/3-circle-c - copia.png" width="80px" alt=""> </a>
+        
+    </div>
+
+    <div>
+        <h1 id="titulo">FORMULARIO TIPO DE PAGO</h1>
+
+        <table id="formulario">
+            <tr id="fila">
+                <td class="columna">
+                    <p class="texto"><b>Tipo de pago</b></p>
+                </td>
+                <td class="columna">
+                    <select id="seleccion" name="" id="">
+                        <option value="">Seleccione</option>
+                        <option value="">Efectivo</option>
+                        <option value="">Consignacion a banco</option>
+                        <option value="">Tarjeta debito/credito</option>
+                        
+                    </select>
+                </td>
+                <td class="columna">
+                    <p class="texto"><b>Cuota</b></p>
+                </td>
+                <td class="columna">
+                    <select id="seleccion" name="" id="">
+                        <option value="">Seleccione</option>
+                        <option value="">Anual</option>
+                        <option value="">Mensual</option>
+                        <option value="">Semanal</option>      
+                    </select>
+                </td>
+            </tr>    
+
+            <tr>
+                <td class="columna">
+                    <p class="texto"><b>Numero Cuenta Bancaria (Opcional)</b></p>
+                </td>
+                <td class="columna">
+                    <input id="num" type="number">
+                </td>
+                <td class="columna">
+                    <p class="texto"><b>Numero Tarjeta debito/credito (Opcional)</b></p>
+                </td>
+                <td class="columna">
+                    <input id="num" type="number">
+                </td>
+            </tr>
+            <tr>
+                <td class="columna">
+                    <input id="check" type="checkbox"> <p id="check">
+                </td>
+                <td class="columna">
+                    <p id="checkt">¿Desea que el pago se descuente automaticamente de su cuenta?</p> 
+            
+            </tr>
+
+            <tr>
+                <td class="columna">
+                    <p class="texto2"><b>Codigo de seguridad de la tarjeta (en caso de escoger tarjeta)</b></p>
+                </td>
+                <td class="columna">
+                    <input id="num2" type="number">
+                </td>
+                <td class="columna">
+                    <p class="texto2"><b>Fecha de expiracion (en caso de escoger tarjeta)</b></p>
+                </td>
+                <td class="columna">
+                    <input id="num2" type="date">
+                </td>
+            </tr>
+        </table>
+        
+    
+    </div>
+    
+    <div>
+        <a href="Seleccion.html"> <button class="boton">Cancelar</button> </a>
+         <a href="Avanzar.html"><button class="boton">Registrar Cliente</button></a>
+     </div>
+</body>
+</html>
