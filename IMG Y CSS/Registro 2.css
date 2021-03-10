@@ -55,9 +55,10 @@ body{
 .boton{
     border-radius: 100%;
     width: 200px;
-    height: 40px;
+    height: 30px;
     margin-top: 60px;
-    margin-left: 25%;    
+    margin-left: 25%;  
+    font-size: 18px;  
 }
 .boton:hover{
     background-color: darkgray;

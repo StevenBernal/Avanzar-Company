@@ -5,6 +5,7 @@ body{
     background-size: 100%;
 }
 
+
 #numero1{
     margin-top: 60px;
     margin-left: 120px;
@@ -28,7 +29,7 @@ body{
     text-align: center;
 }
 #registro{
-    padding-top: 30px;
+    
 }
 
 #texto{
@@ -80,11 +81,11 @@ body{
 }
 .boton{
     border-radius: 100%;
-    width: 150px;
-    height: 60px;
+    width: 200px;
+    height: 30px;
     margin-top: 10px;
-    margin-left: 50%;
-    font-size: 20px;
+    margin-left: 40%;
+    font-size: 19px;
     margin-bottom: 100px;
 }
 .boton:hover{background-color: darkgray;}

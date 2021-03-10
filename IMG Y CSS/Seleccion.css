@@ -1,0 +1,69 @@
+body{
+    background-image: url(Paginas.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    position: relative;
+    left: 90%;
+    top: -70px;
+}
+.opciones1{
+    width: 120px;
+    height: 30px;
+    margin-left: 100%;
+    background-color:#e3f2fd;
+    top: -140px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+}
+.opciones1:hover{ background-color: #e0e0e0 ;}
+.opciones{
+    width: 120px;
+    height: 30px;
+    margin-left: 100%;
+    top: -140px;
+    background-color: #e3f2fd;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+}
+.opciones:hover{ background-color: #e0e0e0 ;}
+
+#registro{
+    border-radius: 100%;
+    height: 100px;
+    width: 300px;
+    top: -190px;
+    left: 60px;
+    margin-top: 40px;
+    position: relative;
+    background-color: #e3f2fd;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#registro:hover{background-color: #e0e0e0; }
+#actualizacion{
+    border-radius: 100%;
+    height: 100px;
+    width: 300px;
+    top: -190px;
+    left: 300px;
+    position: relative;
+    background-color: #e3f2fd;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#actualizacion:hover{background-color: #e0e0e0; }
