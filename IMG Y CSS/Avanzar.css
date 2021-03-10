@@ -12,7 +12,7 @@ body{
 
 #imglogeo{
     margin-top: 40px;
-    margin-left: 470px;
+    margin-left: 420px;
     position: absolute;
     opacity: 60%;
 }
@@ -23,7 +23,7 @@ body{
     width: 400px;
     height: 50px;
     margin-top: 210px;
-    margin-left: 330px;
+    margin-left: 280px;
     position: fixed;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -35,7 +35,7 @@ body{
     width: 400px;
     height: 50px;
     margin-top: 290px;
-    margin-left: 330px;
+    margin-left: 280px;
     position: fixed;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -47,7 +47,7 @@ input::placeholder{
     border-radius: 100%;
     width: 200px;
     height: 50px;
-    margin-left: 430px;
+    margin-left: 380px;
     margin-top: 390px;
     opacity: 90%;
     cursor: pointer;
