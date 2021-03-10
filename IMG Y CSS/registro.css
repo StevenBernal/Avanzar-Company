@@ -4,3 +4,82 @@ body{
     background-attachment: fixed;
     background-size: 100%;
 }
+
+#numero1{
+    margin-top: 60px;
+    margin-left: 160px;
+}
+#numero2{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+#numero3{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+#numero4{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+#registro{
+    padding-top: 60px;
+}
+
+#texto{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#input{
+    background-color: white;
+    width: 400px ;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    border: black solid 1px;
+    
+    
+}
+#input2{
+    background-color: white;
+    width: 300px ;
+    height: 30px; 
+    margin-top: 20px;
+    text-align: center;
+    border: black solid 1px;
+}
+#input3{
+    background-color: white;
+    width: 200px ;
+    height: 30px; 
+    margin-top: 20px;
+    text-align: center;
+    border: black solid 1px;
+}
+#input4{
+    width: 200px ;
+    height: 30px; 
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#input5{
+    background-color: white;
+    width: 170px ;
+    height: 30px; 
+    margin-top: 20px;
+    text-align: center;
+    border: black solid 1px;
+}
+.boton{
+    border-radius: 100%;
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 50%;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.boton:hover{background-color: darkgray;}
